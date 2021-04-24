@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    color: whitesmoke;
+}
+.row{
+    width: 300px;
+    background-image: url(./bakimage/bakcimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+    border: 2px solid;
+    margin: auto;
+    
+
+}
+.screen-main{
+    width: 300px;
+    height: 350px;
+    /* background-color: green; */
+    overflow: scroll;
+
+}
+.col-one{
+    width: 300px;
+    height: 600px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid;
+    margin: auto;
+}
+
+.first-page-icon{
+    width: 80px;
+    height: 80px;
+    /* background-color: red; */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+}
+.first-page-icon:hover{
+        cursor: pointer;
+        background-color:rgb(236, 235, 235);
+        opacity: 0.90;
+        border-radius: 10px;
+        
+}
+img{
+    width: 50px;
+
+    
+}
+.col-two{
+    width: 300px;
+    height: 450px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid;
+    margin: auto;
+}
+.second-page-icon{
+    width: 80px;
+    height:80px;
+    /* background-color: red; */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.second-page-icon:hover{
+    cursor: pointer;
+    background-color:rgb(218, 218, 218);
+    opacity: 0.90;
+    border-radius: 10px;
+    
+}
